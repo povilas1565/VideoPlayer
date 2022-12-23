@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
     templateUrl: 'ErrorPage.html',
-    styleUrls: ['error-page.scss']
+    styleUrls: ['ErrorPage.scss']
 })
 export class ErrorPageComponent {
     errorCode = 404;

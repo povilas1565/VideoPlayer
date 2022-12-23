@@ -43,8 +43,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "src/environments/Environment.ts",
-                  "with": "src/environments/EnvironmentProd.ts"
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -54,7 +54,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "baseHref": "/video-player/",
+              "baseHref": "/angular-video-player/",
               "budgets": [
                 {
                   "type": "initial",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "video-player:build"
+            "browserTarget": "angular-video-player:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "video-player:build:production"
+              "browserTarget": "angular-video-player:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "video-player:build"
+            "browserTarget": "angular-video-player:build"
           }
         },
         "test": {
@@ -121,11 +121,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "video-player:serve"
+            "devServerTarget": "angular-video-player:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "video-player:serve:production"
+              "devServerTarget": "angular-video-player:serve:production"
             }
           }
         }

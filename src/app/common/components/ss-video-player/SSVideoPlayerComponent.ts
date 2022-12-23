@@ -18,7 +18,7 @@ import { TrackerService } from '../../services/TrackerService';
     selector: 'ss-video-player',
     exportAs: 'ss-video-player',
     templateUrl: 'SSVideoPlayer.html',
-    styleUrls: ['SSVideoPlayer'],
+    styleUrls: ['SSVideoPlayer.scss'],
     providers: [TrackerService],
     changeDetection: ChangeDetectionStrategy.OnPush
 })
