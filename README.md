@@ -1,4 +1,4 @@
-# Angular Video Player
+#  VideoPlayer
 
 A HTML5 video player built with Angular.
 
