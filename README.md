@@ -1,12 +1,6 @@
 # Angular Video Player
 
-[![Status](https://github.com/saygiselim/angular-video-player/workflows/github-pages-build/badge.svg)](https://github.com/saygiselim/angular-video-player/actions)
-
 A HTML5 video player built with Angular.
-
-## Try it
-
-- [Angular Video Player](https://saygiselim.github.io/angular-video-player/)
 
 ## Prerequisites
 
